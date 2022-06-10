@@ -10,8 +10,8 @@ namespace OrnekProjeKD11
 
             int say1 = Convert.ToInt32(Console.ReadLine());
             int say2 = Convert.ToInt32(Console.ReadLine());
-            int toplam = say1 + say2;
-            Console.WriteLine("IKI SAYININ TOPLAMI: " +toplam);
+            int toplam = say1 - say2;
+            Console.WriteLine("IKI SAYININ farki: " +toplam);
 
             string name = "Bilge Adam";
             EkranaYaz(name);
