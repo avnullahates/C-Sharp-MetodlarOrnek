@@ -14,6 +14,8 @@ namespace OrnekProjeKD11
             Console.WriteLine("IKI SAYININ farki: " +toplam);
 
             string name = "Bilge Adam";
+            string name2 = "Boost Yildiz Yazilimci";
+            EkranaYaz(name);
             EkranaYaz(name);
             Console.ReadLine();
         }
