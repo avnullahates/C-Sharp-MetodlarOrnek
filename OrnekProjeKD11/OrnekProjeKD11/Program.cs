@@ -8,7 +8,10 @@ namespace OrnekProjeKD11
         {
             Console.WriteLine("Hello Github");
 
-
+            int say1 = Convert.ToInt32(Console.ReadLine());
+            int say2 = Convert.ToInt32(Console.ReadLine());
+            int toplam = say1 + say2;
+            Console.WriteLine("IKI SAYININ TOPLAMI: " +toplam);
 
             string name = "Bilge Adam";
             EkranaYaz(name);
