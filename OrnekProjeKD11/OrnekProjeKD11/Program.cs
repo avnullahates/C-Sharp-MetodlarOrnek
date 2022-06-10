@@ -13,7 +13,7 @@ namespace OrnekProjeKD11
             int toplam = say1 - say2;
             Console.WriteLine("IKI SAYININ farki: " +toplam);
 
-            string name = "Bilge Adam";
+            string name = "Bilge Adam Akademi";
             EkranaYaz(name);
             Console.ReadLine();
         }
